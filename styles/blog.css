@@ -1,0 +1,42 @@
+.header{
+    /* height: 500px; */
+    color: aliceblue;
+    background-image: url(../images/stone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+
+h3{
+    color: rgb(19, 15, 17);
+    text-decoration: dashed;
+}
+
+input{
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.blog{
+    background-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 15px 10px 15px rgb(53, 50, 50);
+
+}
+
+.page-title{
+    font-weight: 600px;
+    text-align: center;
+    
+}

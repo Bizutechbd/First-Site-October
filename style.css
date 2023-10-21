@@ -1,0 +1,92 @@
+
+body{
+    background-image: url(images/blur-rain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu bar start  */
+
+.main{
+    height: 100vh;
+}
+
+header.dropdownmenu {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    background-color: #18191a;
+    
+}
+
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0;
+    padding: 0;
+}
+
+.dropdownmenu ul{
+    background: grey;
+    list-style: none;
+    width: 100%;
+}
+
+.dropdownmenu li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background: #18191a;
+    color: white;
+    
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'poppins', sans-serif;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease;
+
+}
+
+.dropdownmenu li:hover a{
+    background: #028a94;
+
+}
+
+.dropdownmenu{
+    
+}
+
+
+#submenu{
+    left: 0;
+    opacity: 0;
+    position:  absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+ li:hover ul#submenu{
+    opacity: 1;
+    visibility: visible;
+ }
+ #submenu li{
+    float: none;
+    width: 100%;
+ }
+
+ #submenu a:hover{
+    background: #028a94;
+ }
+
+ #submenu a{
+    background-color: #606161;
+ }
+
