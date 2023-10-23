@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-nav.css">
+
+
+
+    <title>Pith Ghor</title>
+    <style>
+        form {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="structure.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="form.html">Contact</a></li>
+            <li><a href="table.html">About</a></li>
+        </ul>
+
+    </nav>
+
+    <h2>Choose yout favorite pitha</h2>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Enter your name">
+        </label>
+
+        <label for="email">Your email
+            <input id="name" type="text" placeholder="Enter your email">
+        </label>
+
+        <label for="phone">Your number
+            <input id="phone" type="text" placeholder="Enter your number">
+        </label>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Pick Only One Pitha</legend>
+            <br>
+            <label for="chitoi">
+                <input type="radio" name="pitha" id="chitoi">
+                Chitoi
+            </label>
+
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                Vapa
+            </label>
+
+            <label for="narkol">
+                <input type="radio" name="pitha" id="narkol">
+                Narkol
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Pick multiple vorta</legend>
+            <br>
+            <label for="sorisha">
+                <input type="checkbox" name="vorta" id="sorisha">
+                Sorisha
+            </label>
+
+            <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki">
+                Sutki
+            </label>
+
+            <label for="til">
+                <input type="checkbox" name="vorta" id="til">
+                Til
+            </label>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Instructions</legend>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </fieldset>
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+
+</html>

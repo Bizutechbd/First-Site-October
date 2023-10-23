@@ -1,3 +1,7 @@
+
+body{
+    overflow: hidden;
+}
 .header{
     /* height: 500px; */
     color: aliceblue;
